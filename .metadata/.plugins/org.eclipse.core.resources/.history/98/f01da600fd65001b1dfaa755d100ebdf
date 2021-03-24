@@ -1,0 +1,19 @@
+package com.adam.spring.javaconfig.test;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.adam.spring.javaconfig.coach.Coach;
+import com.adam.spring.springcoreadvanced.injecting.interfaces.OrderBO;
+
+public class TestClass {
+
+	public static void main(String[] args) {
+		ApplicationContext ctx = new ClassPathXmlApplicationContext("com/adam/spring/javaconfig/test/config.xml");
+		Coach cricketCoach = (Coach) ctx.getBean("cricketCoach");
+		System.out.println(cricketCoach.getDailyWorkout());
+		System.out.println(cricketCoach.getDailyFortune());
+
+	}
+
+}

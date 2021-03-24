@@ -1,0 +1,5 @@
+package com.adam.spring.springorm.entity;
+
+public class Product {
+
+}

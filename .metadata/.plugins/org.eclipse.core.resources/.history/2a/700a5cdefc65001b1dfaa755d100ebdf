@@ -1,0 +1,17 @@
+package com.adam.spring.javaconfig.test;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.adam.spring.springcoreadvanced.injecting.interfaces.OrderBO;
+
+public class TestClass {
+
+	public static void main(String[] args) {
+		ApplicationContext ctx = new ClassPathXmlApplicationContext("com/adam/spring/javaconfig/test/config.xml");
+		OrderBO bo = (OrderBO) ctx.getBean("BO");
+		bo.placeOrder();
+
+	}
+
+}

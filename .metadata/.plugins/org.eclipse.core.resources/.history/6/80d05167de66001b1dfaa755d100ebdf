@@ -1,0 +1,19 @@
+package com.adam.spring.javaconfig.test;
+
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
+import com.adam.spring.javaconfig.service.FortuneService;
+
+@Configuration
+//@ComponentScan("com.adam.spring.javaconfig") we do not need to scan for @component on classes because we are creating these beans manually with java config below
+public class SportConfig {
+	
+	@Bean
+	public FortuneService HappyFortuneService() {
+		
+		HappyFortuneService happyFortuneService = new HappyFortuneService();
+		reu
+	}
+
+}

@@ -1,0 +1,19 @@
+package com.adam.spring.javaconfig.fortuneimpl;
+
+import com.adam.spring.javaconfig.coach.Coach;
+
+public class CricketCoach implements Coach {
+
+	@Override
+	public String getDailyWorkout() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getDailyFortune() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

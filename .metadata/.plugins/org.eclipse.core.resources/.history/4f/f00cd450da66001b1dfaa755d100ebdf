@@ -1,0 +1,8 @@
+package com.adam.spring.javaconfig.test;
+
+import org.springframework.context.annotation.ComponentScan;
+
+@ComponentScan
+public class SportConfig {
+
+}

@@ -1,0 +1,12 @@
+package com.adam.spring.javaconfig.serviceimpl;
+
+import com.adam.spring.javaconfig.service.FortuneService;
+
+public class HappyFortuneService implements FortuneService {
+
+	@Override
+	public String getFortune() {
+		return "You are a happy man!";
+	}
+
+}

@@ -1,0 +1,10 @@
+package com.adam.spring.springorm.product.dao;
+
+import com.adam.spring.springorm.product.entity.Product;
+
+public interface ProductDao {
+	
+	int create(Product product);
+	void update(Product product);
+
+}

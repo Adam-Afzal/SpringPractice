@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="com.adam.spring.springjdbc.employee.dao.EmployeeDao"/>
+<fullyQualifiedTypeName name="javax.persistence.Entity"/>
+<fullyQualifiedTypeName name="javax.persistence.Table"/>
+<fullyQualifiedTypeName name="javax.persistence.Id"/>
+<fullyQualifiedTypeName name="javax.persistence.Column"/>
+<fullyQualifiedTypeName name="com.adam.spring.springorm.product.entity.Product"/>
+<fullyQualifiedTypeName name="com.adam.spring.springorm.product.dao.ProductDao"/>
+<fullyQualifiedTypeName name="org.springframework.orm.hibernate5.HibernateTemplate"/>
+</qualifiedTypeNameHistroy>
